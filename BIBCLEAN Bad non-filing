@@ -1,0 +1,75 @@
+{
+  "queries": [
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "tag": "t"
+        }
+      },
+      "expr": {
+        "op": "regex",
+        "operands": [
+          "^245.2.*|a.[^ \u0027\"]",
+          ""
+        ]
+      }
+    },
+    "or",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "tag": "t"
+        }
+      },
+      "expr": {
+        "op": "regex",
+        "operands": [
+          "^245.3.*|a..[^ \u0027\"]",
+          ""
+        ]
+      }
+    },
+    "or",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "tag": "t"
+        }
+      },
+      "expr": {
+        "op": "regex",
+        "operands": [
+          "^245.4.*|a...[^ \u0027\"]",
+          ""
+        ]
+      }
+    },
+    "or",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "tag": "t"
+        }
+      },
+      "expr": {
+        "op": "regex",
+        "operands": [
+          "^245.5.*|a....[^ \u0027\"]",
+          ""
+        ]
+      }
+    }
+  ]
+}
