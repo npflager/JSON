@@ -1,0 +1,22 @@
+{
+  "queries": [
+    {
+      "target": {
+        "record": {
+          "type": "patron"
+        },
+        "id": 81
+      },
+      "expr": [
+        {
+          "op": "in",
+          "operands": [
+  ".p1416057a",
+	".p1412800a"
+
+          ]
+        }
+      ]
+    }
+  ]
+}
